@@ -1,0 +1,285 @@
+
+
+NET "rst_n" LOC = L3;
+NET "clk" LOC = T8;
+NET "vga_hs_out" LOC = M14;
+NET "vga_vs_out" LOC = L13;
+
+
+NET "rst_n" IOSTANDARD = LVCMOS33;
+NET "clk" IOSTANDARD = LVCMOS33;
+NET "vga_hs_out" IOSTANDARD = LVCMOS33;
+NET "vga_vs_out" IOSTANDARD = LVCMOS33;
+NET "rgb_out[15]" IOSTANDARD = LVCMOS33;
+NET "rgb_out[14]" IOSTANDARD = LVCMOS33;
+NET "rgb_out[13]" IOSTANDARD = LVCMOS33;
+NET "rgb_out[12]" IOSTANDARD = LVCMOS33;
+NET "rgb_out[11]" IOSTANDARD = LVCMOS33;
+NET "rgb_out[10]" IOSTANDARD = LVCMOS33;
+NET "rgb_out[9]" IOSTANDARD = LVCMOS33;
+NET "rgb_out[8]" IOSTANDARD = LVCMOS33;
+NET "rgb_out[7]" IOSTANDARD = LVCMOS33;
+NET "rgb_out[6]" IOSTANDARD = LVCMOS33;
+NET "rgb_out[5]" IOSTANDARD = LVCMOS33;
+NET "rgb_out[4]" IOSTANDARD = LVCMOS33;
+NET "rgb_out[3]" IOSTANDARD = LVCMOS33;
+NET "rgb_out[2]" IOSTANDARD = LVCMOS33;
+NET "rgb_out[1]" IOSTANDARD = LVCMOS33;
+NET "rgb_out[0]" IOSTANDARD = LVCMOS33;
+
+
+NET "rgb_out[15]" LOC = M13;
+NET "rgb_out[14]" LOC = N14;
+NET "rgb_out[13]" LOC = L12;
+NET "rgb_out[12]" LOC = M12;
+NET "rgb_out[11]" LOC = M11;
+NET "rgb_out[10]" LOC = P11;
+NET "rgb_out[9]" LOC = M10;
+NET "rgb_out[8]" LOC = L10;
+NET "rgb_out[7]" LOC = P9;
+NET "rgb_out[6]" LOC = N9;
+NET "rgb_out[5]" LOC = M9;
+NET "rgb_out[4]" LOC = L7;
+NET "rgb_out[3]" LOC = N8;
+NET "rgb_out[2]" LOC = P8;
+NET "rgb_out[1]" LOC = M7;
+NET "rgb_out[0]" LOC = P7;
+
+
+########USB Serial RS232 Pin define#####################
+## Uart RXD:U4_TXD
+
+
+
+##################################################################################
+#SDRAM pin define
+##################################################################################
+## SDRAM CLOCK
+NET "sdram_clk" LOC = H4;
+NET "sdram_clk" IOSTANDARD = LVCMOS33;
+## SDRAM CKE
+NET "sdram_cke" LOC = H2;
+NET "sdram_cke" IOSTANDARD = LVCMOS33;
+## SDRAM CS
+NET "sdram_cs_n" LOC = G1;
+NET "sdram_cs_n" IOSTANDARD = LVCMOS33;
+## SDRAM NWE
+NET "sdram_we_n" LOC = E1;
+NET "sdram_we_n" IOSTANDARD = LVCMOS33;
+## SDRAM CAS
+NET "sdram_cas_n" LOC = F2;
+NET "sdram_cas_n" IOSTANDARD = LVCMOS33;
+## SDRAM RAS
+NET "sdram_ras_n" LOC = F1;
+NET "sdram_ras_n" IOSTANDARD = LVCMOS33;
+
+## SDRAM DQM0
+NET "sdram_dqm[0]" LOC = E2;
+NET "sdram_dqm[0]" IOSTANDARD = LVCMOS33;
+## SDRAM DQM1
+NET "sdram_dqm[1]" LOC = H1;
+NET "sdram_dqm[1]" IOSTANDARD = LVCMOS33;
+
+## SDRAM BA0
+NET "sdram_bank[0]" LOC = G6;
+NET "sdram_bank[0]" IOSTANDARD = LVCMOS33;
+## SDRAM BA1
+NET "sdram_bank[1]" LOC = J6;
+NET "sdram_bank[1]" IOSTANDARD = LVCMOS33;
+
+## SDRAM ADDR0
+NET "sdram_addr[0]" LOC = J3;
+NET "sdram_addr[0]" IOSTANDARD = LVCMOS33;
+## SDRAM ADDR1
+NET "sdram_addr[1]" LOC = J4;
+NET "sdram_addr[1]" IOSTANDARD = LVCMOS33;
+## SDRAM ADDR2
+NET "sdram_addr[2]" LOC = K3;
+NET "sdram_addr[2]" IOSTANDARD = LVCMOS33;
+## SDRAM ADDR3
+NET "sdram_addr[3]" LOC = K5;
+NET "sdram_addr[3]" IOSTANDARD = LVCMOS33;
+## SDRAM ADDR4
+NET "sdram_addr[4]" LOC = P1;
+NET "sdram_addr[4]" IOSTANDARD = LVCMOS33;
+## SDRAM ADDR5
+NET "sdram_addr[5]" LOC = N1;
+NET "sdram_addr[5]" IOSTANDARD = LVCMOS33;
+## SDRAM ADDR6
+NET "sdram_addr[6]" LOC = M2;
+NET "sdram_addr[6]" IOSTANDARD = LVCMOS33;
+## SDRAM ADDR7
+NET "sdram_addr[7]" LOC = M1;
+NET "sdram_addr[7]" IOSTANDARD = LVCMOS33;
+## SDRAM ADDR8
+NET "sdram_addr[8]" LOC = L1;
+NET "sdram_addr[8]" IOSTANDARD = LVCMOS33;
+## SDRAM ADDR9
+NET "sdram_addr[9]" LOC = K2;
+NET "sdram_addr[9]" IOSTANDARD = LVCMOS33;
+## SDRAM ADDR10
+NET "sdram_addr[10]" LOC = K6;
+NET "sdram_addr[10]" IOSTANDARD = LVCMOS33;
+## SDRAM ADDR11
+NET "sdram_addr[11]" LOC = K1;
+NET "sdram_addr[11]" IOSTANDARD = LVCMOS33;
+## SDRAM ADDR12
+NET "sdram_addr[12]" LOC = J1;
+NET "sdram_addr[12]" IOSTANDARD = LVCMOS33;
+
+## SDRAM DATA0
+NET "sdram_dq[0]" LOC = A3;
+NET "sdram_dq[0]" IOSTANDARD = LVCMOS33;
+## SDRAM DATA1
+NET "sdram_dq[1]" LOC = B3;
+NET "sdram_dq[1]" IOSTANDARD = LVCMOS33;
+## SDRAM DATA2
+NET "sdram_dq[2]" LOC = A2;
+NET "sdram_dq[2]" IOSTANDARD = LVCMOS33;
+## SDRAM DATA3
+NET "sdram_dq[3]" LOC = B2;
+NET "sdram_dq[3]" IOSTANDARD = LVCMOS33;
+## SDRAM DATA4
+NET "sdram_dq[4]" LOC = B1;
+NET "sdram_dq[4]" IOSTANDARD = LVCMOS33;
+## SDRAM DATA5
+NET "sdram_dq[5]" LOC = C2;
+NET "sdram_dq[5]" IOSTANDARD = LVCMOS33;
+## SDRAM DATA6
+NET "sdram_dq[6]" LOC = C1;
+NET "sdram_dq[6]" IOSTANDARD = LVCMOS33;
+## SDRAM DATA7
+NET "sdram_dq[7]" LOC = D1;
+NET "sdram_dq[7]" IOSTANDARD = LVCMOS33;
+## SDRAM DATA8
+NET "sdram_dq[8]" LOC = H5;
+NET "sdram_dq[8]" IOSTANDARD = LVCMOS33;
+## SDRAM DATA9
+NET "sdram_dq[9]" LOC = G5;
+NET "sdram_dq[9]" IOSTANDARD = LVCMOS33;
+## SDRAM DATA10
+NET "sdram_dq[10]" LOC = H3;
+NET "sdram_dq[10]" IOSTANDARD = LVCMOS33;
+## SDRAM DATA11
+NET "sdram_dq[11]" LOC = F6;
+NET "sdram_dq[11]" IOSTANDARD = LVCMOS33;
+## SDRAM DATA12
+NET "sdram_dq[12]" LOC = G3;
+NET "sdram_dq[12]" IOSTANDARD = LVCMOS33;
+## SDRAM DATA13
+NET "sdram_dq[13]" LOC = F5;
+NET "sdram_dq[13]" IOSTANDARD = LVCMOS33;
+## SDRAM DATA14
+NET "sdram_dq[14]" LOC = F3;
+NET "sdram_dq[14]" IOSTANDARD = LVCMOS33;
+## SDRAM DATA15
+NET "sdram_dq[15]" LOC = F4;
+NET "sdram_dq[15]" IOSTANDARD = LVCMOS33;
+
+#######################      ov5640      ################################
+NET "ov5640_iic_scl" LOC = K12;
+NET "ov5640_iic_scl" IOSTANDARD = LVCMOS33;
+NET "ov5640_iic_sda" LOC = L14;
+NET "ov5640_iic_sda" IOSTANDARD = LVCMOS33;
+NET "ov5640_pwdn" LOC = F14;
+NET "ov5640_pwdn" IOSTANDARD = LVCMOS33;
+NET "ov5640_rst_n" LOC = E12;
+NET "ov5640_rst_n" IOSTANDARD = LVCMOS33;
+NET "ov5640_xclk" LOC = H13;
+NET "ov5640_xclk" IOSTANDARD = LVCMOS33;
+
+NET "ov5640_href" LOC = G12;
+NET "ov5640_href" IOSTANDARD = LVCMOS33;
+NET "ov5640_vsync" LOC = K14;
+NET "ov5640_vsync" IOSTANDARD = LVCMOS33;
+NET "ov5640_data[0]" LOC = F12;
+NET "ov5640_data[0]" IOSTANDARD = LVCMOS33;
+NET "ov5640_data[1]" LOC = G14;
+NET "ov5640_data[1]" IOSTANDARD = LVCMOS33;
+NET "ov5640_data[2]" LOC = J14;
+NET "ov5640_data[2]" IOSTANDARD = LVCMOS33;
+NET "ov5640_data[3]" LOC = J12;
+NET "ov5640_data[3]" IOSTANDARD = LVCMOS33;
+NET "ov5640_data[4]" LOC = H14;
+NET "ov5640_data[4]" IOSTANDARD = LVCMOS33;
+NET "ov5640_data[5]" LOC = F13;
+NET "ov5640_data[5]" IOSTANDARD = LVCMOS33;
+NET "ov5640_data[6]" LOC = H11;
+NET "ov5640_data[6]" IOSTANDARD = LVCMOS33;
+NET "ov5640_data[7]" LOC = G11;
+NET "ov5640_data[7]" IOSTANDARD = LVCMOS33;
+
+NET "ov5640_pclk" LOC = J13;
+NET "ov5640_pclk" IOSTANDARD = LVCMOS33;
+
+
+NET "data_z" LOC = A4;
+NET "data_z" IOSTANDARD = LVCMOS33;
+
+NET "data_x" LOC = B5;
+NET "data_x" IOSTANDARD = LVCMOS33;
+
+
+
+
+
+   
+PIN "instance_name/clkout2_buf.O" CLOCK_DEDICATED_ROUTE = FALSE;
+PIN "instance_name/clkout3_buf.O" CLOCK_DEDICATED_ROUTE = FALSE;
+PIN "instance_name/clkout1_buf.O" CLOCK_DEDICATED_ROUTE = FALSE;
+
+
+NET "coor_valid_flag" IOSTANDARD = LVCMOS33;
+
+
+NET "coor_valid_flag" LOC = A5;
+NET "vga_in_z[15]" LOC = M16;
+NET "vga_in_z[14]" LOC = N16;
+NET "vga_in_z[13]" LOC = P15;
+NET "vga_in_z[12]" LOC = R15;
+NET "vga_in_z[11]" LOC = R14;
+NET "vga_in_z[10]" LOC = T13;
+NET "vga_in_z[9]" LOC = T12;
+NET "vga_in_z[8]" LOC = T9;
+NET "vga_in_z[7]" LOC = T7;
+NET "vga_in_z[6]" LOC = T6;
+NET "vga_in_z[5]" LOC = R5;
+NET "vga_in_z[4]" LOC = R2;
+NET "vga_in_z[3]" LOC = M4;
+NET "vga_in_z[2]" LOC = N6;
+NET "vga_in_z[1]" LOC = N4;
+NET "vga_in_z[0]" LOC = M5;
+NET "hs_in_z" LOC = J16;
+
+
+
+NET "vs_in_z" IOSTANDARD = LVCMOS12;
+
+
+NET "vga_in_z[15]" IOSTANDARD = LVCMOS12;
+NET "vga_in_z[14]" IOSTANDARD = LVCMOS12;
+NET "vga_in_z[13]" IOSTANDARD = LVCMOS12;
+NET "vga_in_z[12]" IOSTANDARD = LVCMOS12;
+NET "vga_in_z[11]" IOSTANDARD = LVCMOS12;
+NET "vga_in_z[10]" IOSTANDARD = LVCMOS12;
+NET "vga_in_z[9]" IOSTANDARD = LVCMOS12;
+NET "vga_in_z[8]" IOSTANDARD = LVCMOS12;
+NET "vga_in_z[7]" IOSTANDARD = LVCMOS12;
+NET "vga_in_z[6]" IOSTANDARD = LVCMOS12;
+NET "vga_in_z[5]" IOSTANDARD = LVCMOS12;
+NET "vga_in_z[4]" IOSTANDARD = LVCMOS12;
+NET "vga_in_z[3]" IOSTANDARD = LVCMOS12;
+NET "vga_in_z[2]" IOSTANDARD = LVCMOS12;
+NET "vga_in_z[1]" IOSTANDARD = LVCMOS12;
+NET "vga_in_z[0]" IOSTANDARD = LVCMOS12;
+
+NET "hs_in_z" IOSTANDARD = LVCMOS12;
+
+
+
+NET "key_in" LOC = C3;
+NET "key_in" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "vs_in_z" LOC = K15;
